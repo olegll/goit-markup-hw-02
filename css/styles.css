@@ -22,15 +22,13 @@ a:focus {
     color: #404bbf;
 }
 
-a:active{
-    color: #404bbf;
-}
+
 
 
 
 .phone-email-link {
-    font-style: normal;
-    font-weight: 400;
+    
+    
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -38,18 +36,22 @@ a:active{
        
 }
 
+.page-contact {
+    font-style: normal;
+}
+
 .top-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #4d5ae5;
 }
 
 .half-logo {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -61,14 +63,18 @@ a:active{
     
 }
 
+.general-section {
+background: #2e2f42;
+}
+
 .title-text {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        background: #2e2f42;
+        
 }
 
 .title-button {
@@ -78,6 +84,11 @@ a:active{
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
+}
+
+.title-button:hover,
+.title-button:focus {
+    background-color: #404BBF
 }
 
 .all-avant-title {
@@ -96,13 +107,22 @@ a:active{
         color: #434455;
 }
 
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-all {
+    background-color: #ffffff;
+}
+
 .team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 .team-card-title {
@@ -126,10 +146,11 @@ a:active{
 .port-section-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .port-menu-title {
@@ -152,14 +173,14 @@ a:active{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
 }
 
 .half-dawn-logo {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .dawn-text {
