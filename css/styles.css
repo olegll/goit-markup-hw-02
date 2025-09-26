@@ -36,8 +36,11 @@ ol {
   color: #2e2f42;
 }
 
-.contacts-link {
+.contacts {
   font-style: normal;
+}
+
+.contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -56,6 +59,7 @@ ol {
 }
 
 .hero-title {
+  text-align: center;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -79,7 +83,7 @@ ol {
 /* #endregion Hero */
 
 /* #region Qualities */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -91,7 +95,7 @@ ol {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .third-title {
   font-weight: 500;
@@ -111,11 +115,16 @@ ol {
   background-color: #f4f4fd;
 }
 
+.team-list {
+  background-color: #ffffff;
+}
+
 .second-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 /* #endregion Team */
